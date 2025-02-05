@@ -30,6 +30,7 @@ Place the GridTools.extension folder into your pyRevit extensions directory (usu
 
 ### Directory Structure:
 
+```
 ENG Test.extension/
 ├── ENG Test.tab/
 ├    ├── ENG Tech Test.panel/
@@ -40,16 +41,7 @@ ENG Test.extension/
 ├            ├── icon.png
 ├            └── button.yaml
 ├──config.yaml
-
-Configure Button Appearance (Optional):
-
-Edit the button.yaml to customize the button name, description, and tooltip.
-
-Example button.yaml:
-
-title: Grid-Based Numbering
-tooltip: Automatically number elements based on their grid position.
-description: This tool assigns grid locations and sequential numbers to selected elements.
+```
 
 ## Usage
 
