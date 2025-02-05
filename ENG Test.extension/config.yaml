@@ -1,0 +1,10 @@
+name: Grid Tools
+description: Tools for grid-based numbering in Revit.
+author: Leandro Gonzales
+version: 1.0.0
+min_pyrevit_version: 4.8
+extensions:
+  - name: Grid Numbering
+    description: Assign grid-based numbering to elements.
+    icon: icon.png
+    script: script.py

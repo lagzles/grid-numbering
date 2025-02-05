@@ -1,0 +1,3 @@
+title: "Numbering elements by Grid position"
+tooltip: "Click to number selected elements due to their proximity to the grids in the model".
+description: This tool goes trhough the selected elemtns and identifies their proximity to the grids in the model.
