@@ -1,10 +1,10 @@
 # Grid-Based Numbering Tool for Revit (pyRevit)
 
-Overview
+## Overview
 
 The Grid-Based Numbering Tool is a custom pyRevit add-in designed to streamline the numbering of elements in Revit models based on their position relative to grid intersections. It also assigns grid location parameters to selected elements, enhancing model organization and ensuring consistent data handling across projects.
 
-Features
+## Features
 
 Custom Tab and Button: Adds a new tab in pyRevit named "Grid Tools" with a button labeled "Grid-Based Numbering".
 
@@ -16,7 +16,7 @@ Grid-Based Numbering: Assigns grid intersection names to elements in the format 
 
 Sequential Numbering: Numbers elements based on their spatial proximity starting from a user-selected element.
 
-Installation
+## Installation
 
 Install pyRevit:
 
@@ -28,7 +28,7 @@ Clone or Download this Repository:
 
 Place the GridTools.extension folder into your pyRevit extensions directory (usually found at %APPDATA%\pyRevit\Extensions).
 
-Directory Structure:
+### Directory Structure:
 
 ENG Test.extension/
 ├── ENG Test.tab/
@@ -51,7 +51,7 @@ title: Grid-Based Numbering
 tooltip: Automatically number elements based on their grid position.
 description: This tool assigns grid locations and sequential numbers to selected elements.
 
-Usage
+## Usage
 
 Launch Revit and Open a Model.
 
@@ -63,25 +63,25 @@ Define Starting Element: Choose the first element for sequential numbering direc
 
 Run the Tool: The script will assign grid locations and numbers to the selected elements.
 
-Technical Details
+## Technical Details
 
-Compatibility
+### Compatibility
 
 This tool is compatible with Revit versions 2019 to 2024.
 
-Parameters Created
+### Parameters Created
 
 Grid Square: Text parameter indicating the closest grid intersection (e.g., A-1).
 
 Number: Sequential number assigned based on spatial proximity.
 
-Customization
+### Customization
 
 Icons: Replace icon.png with your custom icon.
 
 Form Customization: Modify the form in script.py for additional functionality.
 
-Troubleshooting
+## Troubleshooting
 
 Error: "Shared parameter file not found."
 
@@ -95,7 +95,7 @@ Script Not Appearing in pyRevit:
 
 Ensure the GridTools.extension folder is in the correct pyRevit extensions directory.
 
-License
+## License
 
 This project is open-source and available under the MIT License.
 
