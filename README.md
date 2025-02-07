@@ -26,7 +26,12 @@ Run the installer and follow the on-screen instructions.
 
 Clone or Download this Repository:
 
-Place the GridTools.extension folder into your pyRevit extensions directory (usually found at %APPDATA%\pyRevit\Extensions).
+Place the GridTools.extension folder into your pyRevit extensions directory 
+Usually found at: 
+%APPDATA%\pyRevit\Extensions
+or
+C:\Users\%user%\AppData\Roaming\pyRevit\Extensions
+
 
 ### Directory Structure:
 
